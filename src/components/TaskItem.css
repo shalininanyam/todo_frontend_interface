@@ -1,0 +1,58 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+  }
+  
+  .task-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .task-info {
+    flex: 1;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .action-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .priority-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .reminder {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  
